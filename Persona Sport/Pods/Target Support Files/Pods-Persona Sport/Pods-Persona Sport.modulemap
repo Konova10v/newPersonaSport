@@ -1,0 +1,6 @@
+framework module Pods_Persona_Sport {
+  umbrella header "Pods-Persona Sport-umbrella.h"
+
+  export *
+  module * { export * }
+}

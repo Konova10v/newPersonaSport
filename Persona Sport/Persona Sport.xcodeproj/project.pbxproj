@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D93C042BCA1992F02A08B41 /* Pods_Persona_Sport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC45E5BDD171ED8E0BB8A6D /* Pods_Persona_Sport.framework */; };
+		6E2558EE2682F68B002394ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2558ED2682F68B002394ED /* AppDelegate.swift */; };
+		6E2558F02682F68B002394ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2558EF2682F68B002394ED /* SceneDelegate.swift */; };
+		6E2558F22682F68B002394ED /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2558F12682F68B002394ED /* MainScreenView.swift */; };
+		6E2558F42682F691002394ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E2558F32682F691002394ED /* Assets.xcassets */; };
+		6E2558F72682F691002394ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E2558F62682F691002394ED /* Preview Assets.xcassets */; };
+		6E2558FA2682F691002394ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2558F82682F691002394ED /* LaunchScreen.storyboard */; };
+		6E2559042683002C002394ED /* AvailableFree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2559032683002C002394ED /* AvailableFree.swift */; };
+		6E25590626830E18002394ED /* MainMyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E25590526830E18002394ED /* MainMyCard.swift */; };
+		6E25590926830F42002394ED /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E25590826830F42002394ED /* UIScreen.swift */; };
+		6E25590B26831945002394ED /* Promotions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E25590A26831945002394ED /* Promotions.swift */; };
+		6E25590D268351AD002394ED /* AttendanceStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E25590C268351AD002394ED /* AttendanceStatistics.swift */; };
+		6E25590F268356AB002394ED /* MyWorkouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E25590E268356AB002394ED /* MyWorkouts.swift */; };
+		6E25591326835DAB002394ED /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E25591226835DAB002394ED /* TabBar.swift */; };
+		6E25591526836722002394ED /* InactiveCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E25591426836721002394ED /* InactiveCard.swift */; };
+		6E25591926836EE4002394ED /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E25591826836EE4002394ED /* Fonts.swift */; };
+		6E25591F26837528002394ED /* Gilroy-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E25591A26836FBF002394ED /* Gilroy-Semibold.ttf */; };
+		6E2559202683752B002394ED /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E25591B2683720C002394ED /* Gilroy-Medium.ttf */; };
+		6E2559212683752E002394ED /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E25591E268374A6002394ED /* Gilroy-Bold.ttf */; };
+		6E257CAE2684A75100841F72 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E257CAD2684A75100841F72 /* UIDevice.swift */; };
+		6E257CB12687271C00841F72 /* MainAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E257CB02687271C00841F72 /* MainAuth.swift */; };
+		6E257CB326872AF900841F72 /* AuthPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E257CB226872AF900841F72 /* AuthPhone.swift */; };
+		6E257CB52687436800841F72 /* AuthName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E257CB42687436800841F72 /* AuthName.swift */; };
+		6E257CB72687540000841F72 /* AuthSurname.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E257CB62687540000841F72 /* AuthSurname.swift */; };
+		6E257CB9268758F500841F72 /* AuthBirthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E257CB8268758F500841F72 /* AuthBirthday.swift */; };
+		6E257CBB26875A8F00841F72 /* AuthGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E257CBA26875A8F00841F72 /* AuthGender.swift */; };
+		6E257CBD2687612500841F72 /* AuthCountChildren.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E257CBC2687612500841F72 /* AuthCountChildren.swift */; };
+		6E257CBF26876D8000841F72 /* AuthPatronymic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E257CBE26876D8000841F72 /* AuthPatronymic.swift */; };
+		6E257CC12688803600841F72 /* AuthTrainingGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E257CC02688803600841F72 /* AuthTrainingGoal.swift */; };
+		6E257CC32688851F00841F72 /* AuthNoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E257CC22688851F00841F72 /* AuthNoClient.swift */; };
+		6E3AF48F268DD2C500D765DD /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3AF48E268DD2C500D765DD /* Date.swift */; };
+		6E686A45269D636000F7940C /* EnterFreezeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E686A44269D635F00F7940C /* EnterFreezeCard.swift */; };
+		6E686A47269D63E300F7940C /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E686A46269D63E300F7940C /* RoundedCorners.swift */; };
+		6E686A4B269DB66E00F7940C /* MyCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E686A4A269DB66E00F7940C /* MyCardViewModel.swift */; };
+		6E686A4D269DB9CC00F7940C /* AvailableWorkouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E686A4C269DB9CC00F7940C /* AvailableWorkouts.swift */; };
+		6E686A4F269DD20A00F7940C /* AboutCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E686A4E269DD20A00F7940C /* AboutCard.swift */; };
+		6E6BEF4B269CA57D000877B1 /* Deposit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6BEF4A269CA57D000877B1 /* Deposit.swift */; };
+		6E6BEF4E269CAC87000877B1 /* ShowFullScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6BEF4D269CAC87000877B1 /* ShowFullScreen.swift */; };
+		6E93E838268B280D00D3C310 /* APICallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E93E837268B280D00D3C310 /* APICallManager.swift */; };
+		6E93E83C268B285500D3C310 /* MainScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E93E83B268B285500D3C310 /* MainScreenModel.swift */; };
+		6E93E83E268B47D600D3C310 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E93E83D268B47D600D3C310 /* Service.swift */; };
+		6E93E841268B498700D3C310 /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E93E840268B498700D3C310 /* MainScreenViewModel.swift */; };
+		6EC724CC269D5653009CE1D7 /* FreezeTheCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC724CB269D5653009CE1D7 /* FreezeTheCard.swift */; };
+		6EC724D0269D5EC7009CE1D7 /* PartialSheetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC724CF269D5EC7009CE1D7 /* PartialSheetManager.swift */; };
+		6EC724D2269D5EF2009CE1D7 /* PartialSheetViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC724D1269D5EF2009CE1D7 /* PartialSheetViewModifier.swift */; };
+		6EC724D4269D5F18009CE1D7 /* PartialSheetStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC724D3269D5F18009CE1D7 /* PartialSheetStyle.swift */; };
+		6EC724D6269D5F42009CE1D7 /* DragState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC724D5269D5F42009CE1D7 /* DragState.swift */; };
+		6EC724D8269D5F6E009CE1D7 /* View+PartialSheetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC724D7269D5F6E009CE1D7 /* View+PartialSheetModifier.swift */; };
+		6EC724DA269D5F93009CE1D7 /* View+IfDeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC724D9269D5F93009CE1D7 /* View+IfDeviceType.swift */; };
+		6EC724DC269D5FB7009CE1D7 /* BlurEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC724DB269D5FB7009CE1D7 /* BlurEffectView.swift */; };
+		6EF21E76269C68FC001C2BE0 /* SelectOurClubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF21E75269C68FC001C2BE0 /* SelectOurClubs.swift */; };
+		6EFBBB72269C7A930036C39B /* SelectCityClubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFBBB71269C7A930036C39B /* SelectCityClubs.swift */; };
+		6EFBBB74269C821A0036C39B /* DetailOurClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFBBB73269C821A0036C39B /* DetailOurClub.swift */; };
+		6EFBBB76269C8F730036C39B /* ClubOpportunities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFBBB75269C8F730036C39B /* ClubOpportunities.swift */; };
+		6EFBBB78269C93840036C39B /* ClubMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFBBB77269C93840036C39B /* ClubMap.swift */; };
+		6EFBBB7B269C98ED0036C39B /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFBBB7A269C98ED0036C39B /* MyCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5482D0141B020B96967DDB7D /* Pods-Persona Sport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Persona Sport.release.xcconfig"; path = "Target Support Files/Pods-Persona Sport/Pods-Persona Sport.release.xcconfig"; sourceTree = "<group>"; };
+		6E2558EA2682F68B002394ED /* Persona Sport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Persona Sport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2558ED2682F68B002394ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E2558EF2682F68B002394ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E2558F12682F68B002394ED /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		6E2558F32682F691002394ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E2558F62682F691002394ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E2558F92682F691002394ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E2558FB2682F691002394ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E2559032683002C002394ED /* AvailableFree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableFree.swift; sourceTree = "<group>"; };
+		6E25590526830E18002394ED /* MainMyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMyCard.swift; sourceTree = "<group>"; };
+		6E25590826830F42002394ED /* UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
+		6E25590A26831945002394ED /* Promotions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promotions.swift; sourceTree = "<group>"; };
+		6E25590C268351AD002394ED /* AttendanceStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceStatistics.swift; sourceTree = "<group>"; };
+		6E25590E268356AB002394ED /* MyWorkouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkouts.swift; sourceTree = "<group>"; };
+		6E25591226835DAB002394ED /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		6E25591426836721002394ED /* InactiveCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InactiveCard.swift; sourceTree = "<group>"; };
+		6E25591826836EE4002394ED /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		6E25591A26836FBF002394ED /* Gilroy-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Semibold.ttf"; sourceTree = "<group>"; };
+		6E25591B2683720C002394ED /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		6E25591E268374A6002394ED /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		6E257CAD2684A75100841F72 /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		6E257CB02687271C00841F72 /* MainAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAuth.swift; sourceTree = "<group>"; };
+		6E257CB226872AF900841F72 /* AuthPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPhone.swift; sourceTree = "<group>"; };
+		6E257CB42687436800841F72 /* AuthName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthName.swift; sourceTree = "<group>"; };
+		6E257CB62687540000841F72 /* AuthSurname.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSurname.swift; sourceTree = "<group>"; };
+		6E257CB8268758F500841F72 /* AuthBirthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthBirthday.swift; sourceTree = "<group>"; };
+		6E257CBA26875A8F00841F72 /* AuthGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthGender.swift; sourceTree = "<group>"; };
+		6E257CBC2687612500841F72 /* AuthCountChildren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCountChildren.swift; sourceTree = "<group>"; };
+		6E257CBE26876D8000841F72 /* AuthPatronymic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPatronymic.swift; sourceTree = "<group>"; };
+		6E257CC02688803600841F72 /* AuthTrainingGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTrainingGoal.swift; sourceTree = "<group>"; };
+		6E257CC22688851F00841F72 /* AuthNoClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthNoClient.swift; sourceTree = "<group>"; };
+		6E3AF48E268DD2C500D765DD /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		6E686A44269D635F00F7940C /* EnterFreezeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterFreezeCard.swift; sourceTree = "<group>"; };
+		6E686A46269D63E300F7940C /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		6E686A4A269DB66E00F7940C /* MyCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardViewModel.swift; sourceTree = "<group>"; };
+		6E686A4C269DB9CC00F7940C /* AvailableWorkouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableWorkouts.swift; sourceTree = "<group>"; };
+		6E686A4E269DD20A00F7940C /* AboutCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCard.swift; sourceTree = "<group>"; };
+		6E6BEF4A269CA57D000877B1 /* Deposit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deposit.swift; sourceTree = "<group>"; };
+		6E6BEF4D269CAC87000877B1 /* ShowFullScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowFullScreen.swift; sourceTree = "<group>"; };
+		6E93E837268B280D00D3C310 /* APICallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallManager.swift; sourceTree = "<group>"; };
+		6E93E83B268B285500D3C310 /* MainScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenModel.swift; sourceTree = "<group>"; };
+		6E93E83D268B47D600D3C310 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		6E93E840268B498700D3C310 /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		6EC724CB269D5653009CE1D7 /* FreezeTheCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreezeTheCard.swift; sourceTree = "<group>"; };
+		6EC724CF269D5EC7009CE1D7 /* PartialSheetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialSheetManager.swift; sourceTree = "<group>"; };
+		6EC724D1269D5EF2009CE1D7 /* PartialSheetViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialSheetViewModifier.swift; sourceTree = "<group>"; };
+		6EC724D3269D5F18009CE1D7 /* PartialSheetStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialSheetStyle.swift; sourceTree = "<group>"; };
+		6EC724D5269D5F42009CE1D7 /* DragState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragState.swift; sourceTree = "<group>"; };
+		6EC724D7269D5F6E009CE1D7 /* View+PartialSheetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+PartialSheetModifier.swift"; sourceTree = "<group>"; };
+		6EC724D9269D5F93009CE1D7 /* View+IfDeviceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+IfDeviceType.swift"; sourceTree = "<group>"; };
+		6EC724DB269D5FB7009CE1D7 /* BlurEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffectView.swift; sourceTree = "<group>"; };
+		6EF21E75269C68FC001C2BE0 /* SelectOurClubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOurClubs.swift; sourceTree = "<group>"; };
+		6EFBBB71269C7A930036C39B /* SelectCityClubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCityClubs.swift; sourceTree = "<group>"; };
+		6EFBBB73269C821A0036C39B /* DetailOurClub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailOurClub.swift; sourceTree = "<group>"; };
+		6EFBBB75269C8F730036C39B /* ClubOpportunities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubOpportunities.swift; sourceTree = "<group>"; };
+		6EFBBB77269C93840036C39B /* ClubMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubMap.swift; sourceTree = "<group>"; };
+		6EFBBB7A269C98ED0036C39B /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
+		E67F9290A55BE99BD81003A0 /* Pods-Persona Sport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Persona Sport.debug.xcconfig"; path = "Target Support Files/Pods-Persona Sport/Pods-Persona Sport.debug.xcconfig"; sourceTree = "<group>"; };
+		FDC45E5BDD171ED8E0BB8A6D /* Pods_Persona_Sport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Persona_Sport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E2558E72682F68B002394ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D93C042BCA1992F02A08B41 /* Pods_Persona_Sport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40C513573916F1E5C9F8572B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDC45E5BDD171ED8E0BB8A6D /* Pods_Persona_Sport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E2558E12682F68B002394ED = {
+			isa = PBXGroup;
+			children = (
+				6E2558EC2682F68B002394ED /* Persona Sport */,
+				6E2558EB2682F68B002394ED /* Products */,
+				E365F13176BA29F6089473D7 /* Pods */,
+				40C513573916F1E5C9F8572B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E2558EB2682F68B002394ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E2558EA2682F68B002394ED /* Persona Sport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E2558EC2682F68B002394ED /* Persona Sport */ = {
+			isa = PBXGroup;
+			children = (
+				6E2558ED2682F68B002394ED /* AppDelegate.swift */,
+				6E2558EF2682F68B002394ED /* SceneDelegate.swift */,
+				6EC724CD269D5DDD009CE1D7 /* Components */,
+				6E6BEF4C269CAC69000877B1 /* Helper */,
+				6E93E836268B27DA00D3C310 /* API */,
+				6E25591626836E9C002394ED /* Fonts */,
+				6E25590726830F11002394ED /* Extension */,
+				6E2559012682F827002394ED /* Scenes */,
+				6E2558F32682F691002394ED /* Assets.xcassets */,
+				6E2558F82682F691002394ED /* LaunchScreen.storyboard */,
+				6E2558FB2682F691002394ED /* Info.plist */,
+				6E2558F52682F691002394ED /* Preview Content */,
+			);
+			path = "Persona Sport";
+			sourceTree = "<group>";
+		};
+		6E2558F52682F691002394ED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E2558F62682F691002394ED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E2559012682F827002394ED /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6E257CAF2687266500841F72 /* Auth */,
+				6E25591026835D8C002394ED /* TabBar */,
+				6E2559022683000E002394ED /* MainScreen */,
+				6EF21E74269C68C5001C2BE0 /* OurСlubs */,
+				6EFBBB79269C98C70036C39B /* MyCard */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		6E2559022683000E002394ED /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				6E93E839268B281600D3C310 /* View */,
+				6E93E83F268B495600D3C310 /* ViewModel */,
+				6E93E83A268B283700D3C310 /* Model */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		6E25590726830F11002394ED /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6E25590826830F42002394ED /* UIScreen.swift */,
+				6E257CAD2684A75100841F72 /* UIDevice.swift */,
+				6E3AF48E268DD2C500D765DD /* Date.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6E25591026835D8C002394ED /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				6E25591226835DAB002394ED /* TabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		6E25591626836E9C002394ED /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6E25591A26836FBF002394ED /* Gilroy-Semibold.ttf */,
+				6E25591B2683720C002394ED /* Gilroy-Medium.ttf */,
+				6E25591E268374A6002394ED /* Gilroy-Bold.ttf */,
+				6E25591826836EE4002394ED /* Fonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6E257CAF2687266500841F72 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				6E257CB02687271C00841F72 /* MainAuth.swift */,
+				6E257CB226872AF900841F72 /* AuthPhone.swift */,
+				6E257CB42687436800841F72 /* AuthName.swift */,
+				6E257CB62687540000841F72 /* AuthSurname.swift */,
+				6E257CBE26876D8000841F72 /* AuthPatronymic.swift */,
+				6E257CB8268758F500841F72 /* AuthBirthday.swift */,
+				6E257CBA26875A8F00841F72 /* AuthGender.swift */,
+				6E257CBC2687612500841F72 /* AuthCountChildren.swift */,
+				6E257CC02688803600841F72 /* AuthTrainingGoal.swift */,
+				6E257CC22688851F00841F72 /* AuthNoClient.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		6E686A48269DB63600F7940C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6EFBBB7A269C98ED0036C39B /* MyCard.swift */,
+				6E6BEF4A269CA57D000877B1 /* Deposit.swift */,
+				6EC724CB269D5653009CE1D7 /* FreezeTheCard.swift */,
+				6E686A44269D635F00F7940C /* EnterFreezeCard.swift */,
+				6E686A4C269DB9CC00F7940C /* AvailableWorkouts.swift */,
+				6E686A4E269DD20A00F7940C /* AboutCard.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E686A49269DB64B00F7940C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6E686A4A269DB66E00F7940C /* MyCardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6E6BEF4C269CAC69000877B1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6E6BEF4D269CAC87000877B1 /* ShowFullScreen.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		6E93E836268B27DA00D3C310 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6E93E837268B280D00D3C310 /* APICallManager.swift */,
+				6E93E83D268B47D600D3C310 /* Service.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6E93E839268B281600D3C310 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E2558F12682F68B002394ED /* MainScreenView.swift */,
+				6E2559032683002C002394ED /* AvailableFree.swift */,
+				6E25590526830E18002394ED /* MainMyCard.swift */,
+				6E25590A26831945002394ED /* Promotions.swift */,
+				6E25590C268351AD002394ED /* AttendanceStatistics.swift */,
+				6E25590E268356AB002394ED /* MyWorkouts.swift */,
+				6E25591426836721002394ED /* InactiveCard.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E93E83A268B283700D3C310 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E93E83B268B285500D3C310 /* MainScreenModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E93E83F268B495600D3C310 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6E93E840268B498700D3C310 /* MainScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6EC724CD269D5DDD009CE1D7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6EC724CE269D5EAC009CE1D7 /* PartialSheet */,
+				6E686A46269D63E300F7940C /* RoundedCorners.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6EC724CE269D5EAC009CE1D7 /* PartialSheet */ = {
+			isa = PBXGroup;
+			children = (
+				6EC724CF269D5EC7009CE1D7 /* PartialSheetManager.swift */,
+				6EC724D1269D5EF2009CE1D7 /* PartialSheetViewModifier.swift */,
+				6EC724D3269D5F18009CE1D7 /* PartialSheetStyle.swift */,
+				6EC724D5269D5F42009CE1D7 /* DragState.swift */,
+				6EC724D7269D5F6E009CE1D7 /* View+PartialSheetModifier.swift */,
+				6EC724D9269D5F93009CE1D7 /* View+IfDeviceType.swift */,
+				6EC724DB269D5FB7009CE1D7 /* BlurEffectView.swift */,
+			);
+			path = PartialSheet;
+			sourceTree = "<group>";
+		};
+		6EF21E74269C68C5001C2BE0 /* OurСlubs */ = {
+			isa = PBXGroup;
+			children = (
+				6EF21E75269C68FC001C2BE0 /* SelectOurClubs.swift */,
+				6EFBBB73269C821A0036C39B /* DetailOurClub.swift */,
+				6EFBBB75269C8F730036C39B /* ClubOpportunities.swift */,
+				6EFBBB77269C93840036C39B /* ClubMap.swift */,
+				6EFBBB71269C7A930036C39B /* SelectCityClubs.swift */,
+			);
+			path = "OurСlubs";
+			sourceTree = "<group>";
+		};
+		6EFBBB79269C98C70036C39B /* MyCard */ = {
+			isa = PBXGroup;
+			children = (
+				6E686A49269DB64B00F7940C /* ViewModel */,
+				6E686A48269DB63600F7940C /* View */,
+			);
+			path = MyCard;
+			sourceTree = "<group>";
+		};
+		E365F13176BA29F6089473D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E67F9290A55BE99BD81003A0 /* Pods-Persona Sport.debug.xcconfig */,
+				5482D0141B020B96967DDB7D /* Pods-Persona Sport.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E2558E92682F68B002394ED /* Persona Sport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E2558FE2682F691002394ED /* Build configuration list for PBXNativeTarget "Persona Sport" */;
+			buildPhases = (
+				D47423B0A9FF38FBD6066AFF /* [CP] Check Pods Manifest.lock */,
+				6E2558E62682F68B002394ED /* Sources */,
+				6E2558E72682F68B002394ED /* Frameworks */,
+				6E2558E82682F68B002394ED /* Resources */,
+				F7DDA4C7E2F731D4C6167104 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Persona Sport";
+			productName = "Persona Sport";
+			productReference = 6E2558EA2682F68B002394ED /* Persona Sport.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E2558E22682F68B002394ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6E2558E92682F68B002394ED = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 6E2558E52682F68B002394ED /* Build configuration list for PBXProject "Persona Sport" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E2558E12682F68B002394ED;
+			productRefGroup = 6E2558EB2682F68B002394ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E2558E92682F68B002394ED /* Persona Sport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E2558E82682F68B002394ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2558FA2682F691002394ED /* LaunchScreen.storyboard in Resources */,
+				6E25591F26837528002394ED /* Gilroy-Semibold.ttf in Resources */,
+				6E2559202683752B002394ED /* Gilroy-Medium.ttf in Resources */,
+				6E2559212683752E002394ED /* Gilroy-Bold.ttf in Resources */,
+				6E2558F72682F691002394ED /* Preview Assets.xcassets in Resources */,
+				6E2558F42682F691002394ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D47423B0A9FF38FBD6066AFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Persona Sport-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7DDA4C7E2F731D4C6167104 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Persona Sport/Pods-Persona Sport-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Persona Sport/Pods-Persona Sport-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Persona Sport/Pods-Persona Sport-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E2558E62682F68B002394ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E257CB72687540000841F72 /* AuthSurname.swift in Sources */,
+				6EC724D4269D5F18009CE1D7 /* PartialSheetStyle.swift in Sources */,
+				6E686A47269D63E300F7940C /* RoundedCorners.swift in Sources */,
+				6EC724D2269D5EF2009CE1D7 /* PartialSheetViewModifier.swift in Sources */,
+				6E93E83E268B47D600D3C310 /* Service.swift in Sources */,
+				6E2558EE2682F68B002394ED /* AppDelegate.swift in Sources */,
+				6EFBBB74269C821A0036C39B /* DetailOurClub.swift in Sources */,
+				6EF21E76269C68FC001C2BE0 /* SelectOurClubs.swift in Sources */,
+				6EC724DA269D5F93009CE1D7 /* View+IfDeviceType.swift in Sources */,
+				6EC724DC269D5FB7009CE1D7 /* BlurEffectView.swift in Sources */,
+				6EFBBB7B269C98ED0036C39B /* MyCard.swift in Sources */,
+				6EFBBB78269C93840036C39B /* ClubMap.swift in Sources */,
+				6EC724D0269D5EC7009CE1D7 /* PartialSheetManager.swift in Sources */,
+				6EC724D6269D5F42009CE1D7 /* DragState.swift in Sources */,
+				6EC724CC269D5653009CE1D7 /* FreezeTheCard.swift in Sources */,
+				6E257CC32688851F00841F72 /* AuthNoClient.swift in Sources */,
+				6E25590926830F42002394ED /* UIScreen.swift in Sources */,
+				6E686A4D269DB9CC00F7940C /* AvailableWorkouts.swift in Sources */,
+				6E2559042683002C002394ED /* AvailableFree.swift in Sources */,
+				6E25590B26831945002394ED /* Promotions.swift in Sources */,
+				6E25591926836EE4002394ED /* Fonts.swift in Sources */,
+				6E2558F02682F68B002394ED /* SceneDelegate.swift in Sources */,
+				6E25591526836722002394ED /* InactiveCard.swift in Sources */,
+				6E257CBF26876D8000841F72 /* AuthPatronymic.swift in Sources */,
+				6E257CB9268758F500841F72 /* AuthBirthday.swift in Sources */,
+				6E25590626830E18002394ED /* MainMyCard.swift in Sources */,
+				6E6BEF4B269CA57D000877B1 /* Deposit.swift in Sources */,
+				6E257CBB26875A8F00841F72 /* AuthGender.swift in Sources */,
+				6E93E841268B498700D3C310 /* MainScreenViewModel.swift in Sources */,
+				6E257CB12687271C00841F72 /* MainAuth.swift in Sources */,
+				6E257CAE2684A75100841F72 /* UIDevice.swift in Sources */,
+				6E257CC12688803600841F72 /* AuthTrainingGoal.swift in Sources */,
+				6E93E838268B280D00D3C310 /* APICallManager.swift in Sources */,
+				6E93E83C268B285500D3C310 /* MainScreenModel.swift in Sources */,
+				6E25590F268356AB002394ED /* MyWorkouts.swift in Sources */,
+				6E686A4F269DD20A00F7940C /* AboutCard.swift in Sources */,
+				6EC724D8269D5F6E009CE1D7 /* View+PartialSheetModifier.swift in Sources */,
+				6E257CBD2687612500841F72 /* AuthCountChildren.swift in Sources */,
+				6E6BEF4E269CAC87000877B1 /* ShowFullScreen.swift in Sources */,
+				6E2558F22682F68B002394ED /* MainScreenView.swift in Sources */,
+				6E3AF48F268DD2C500D765DD /* Date.swift in Sources */,
+				6E686A4B269DB66E00F7940C /* MyCardViewModel.swift in Sources */,
+				6E257CB52687436800841F72 /* AuthName.swift in Sources */,
+				6EFBBB72269C7A930036C39B /* SelectCityClubs.swift in Sources */,
+				6E25590D268351AD002394ED /* AttendanceStatistics.swift in Sources */,
+				6EFBBB76269C8F730036C39B /* ClubOpportunities.swift in Sources */,
+				6E686A45269D636000F7940C /* EnterFreezeCard.swift in Sources */,
+				6E25591326835DAB002394ED /* TabBar.swift in Sources */,
+				6E257CB326872AF900841F72 /* AuthPhone.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E2558F82682F691002394ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E2558F92682F691002394ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E2558FC2682F691002394ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E2558FD2682F691002394ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E2558FF2682F691002394ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E67F9290A55BE99BD81003A0 /* Pods-Persona Sport.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"Persona Sport/Preview Content\"";
+				DEVELOPMENT_TEAM = 9LT76L2XMK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Persona Sport/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.new.newPersonaSport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6E2559002682F691002394ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5482D0141B020B96967DDB7D /* Pods-Persona Sport.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"Persona Sport/Preview Content\"";
+				DEVELOPMENT_TEAM = 9LT76L2XMK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Persona Sport/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.new.newPersonaSport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E2558E52682F68B002394ED /* Build configuration list for PBXProject "Persona Sport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2558FC2682F691002394ED /* Debug */,
+				6E2558FD2682F691002394ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E2558FE2682F691002394ED /* Build configuration list for PBXNativeTarget "Persona Sport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2558FF2682F691002394ED /* Debug */,
+				6E2559002682F691002394ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E2558E22682F68B002394ED /* Project object */;
+}
